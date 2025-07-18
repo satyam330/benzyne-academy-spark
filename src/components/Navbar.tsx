@@ -26,11 +26,11 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">B</span>
             </div>
-            <div>
+            <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-primary font-playfair">Benzyne Academy</h1>
               <p className="text-xs text-muted-foreground">Excellence in Chemistry</p>
             </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
 
           {/* Contact Info & Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <div className="hidden lg:flex items-center space-x-4 text-sm">
+            <div className="hidden xl:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1 text-muted-foreground">
                 <Phone className="w-4 h-4" />
                 <span>+91 98765 43210</span>

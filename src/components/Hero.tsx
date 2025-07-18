@@ -17,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center relative overflow-hidden">
+    <section id="hero" className="h-screen flex items-center relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -39,29 +39,29 @@ const Hero = () => {
               <span className="text-sm font-medium">Trusted by 1000+ NEET & JEE Toppers</span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold font-playfair mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold font-playfair mb-4 leading-tight">
               Master Organic Chemistry with{' '}
               <span className="text-accent">Benzyne Academy</span>
             </h1>
             
-            <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
+            <p className="text-lg md:text-xl mb-6 text-white/90 leading-relaxed">
               Expert coaching for NEET & JEE aspirants with specialized focus on Organic Chemistry. 
               Foundation courses for Classes 8-10 to build strong fundamentals.
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-3 gap-4 mb-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">500+</div>
-                <div className="text-sm text-white/80">Students Placed</div>
+                <div className="text-2xl font-bold text-accent">500+</div>
+                <div className="text-xs text-white/80">Students Placed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">15+</div>
-                <div className="text-sm text-white/80">Years Experience</div>
+                <div className="text-2xl font-bold text-accent">15+</div>
+                <div className="text-xs text-white/80">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">98%</div>
-                <div className="text-sm text-white/80">Success Rate</div>
+                <div className="text-2xl font-bold text-accent">98%</div>
+                <div className="text-xs text-white/80">Success Rate</div>
               </div>
             </div>
 
@@ -85,9 +85,9 @@ const Hero = () => {
             </div>
 
             {/* Trust Indicators */}
-            <div className="mt-8 pt-8 border-t border-white/20">
-              <p className="text-white/80 text-sm mb-3">Trusted by students from:</p>
-              <div className="flex flex-wrap gap-4 text-white/70 text-sm">
+            <div className="mt-6 pt-6 border-t border-white/20">
+              <p className="text-white/80 text-sm mb-2">Trusted by students from:</p>
+              <div className="flex flex-wrap gap-3 text-white/70 text-sm">
                 <span>• AIIMS Delhi</span>
                 <span>• IIT Bombay</span>
                 <span>• NEET AIR 1-100</span>
